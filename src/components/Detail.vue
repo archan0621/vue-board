@@ -25,7 +25,12 @@ export default {
       })
     },
     updateData(){
-
+      this.$router.push({
+        name: 'Detail',
+        params: {
+          contentId : this.index
+        }
+      })
     }
   }
 }
